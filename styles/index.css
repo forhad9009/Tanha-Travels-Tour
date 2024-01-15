@@ -1,0 +1,237 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Segoe UI', Tahoma, sans-serif; */
+}
+.primary-colour{
+    background-color: rgb(248,85,10);
+}
+
+.body-container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.banner-section{
+    text-align: center;
+    background-image: url(../B9A2-Hero-Travel-main/Images/Group\ 13\ \(1\)\ \(1\).png);
+    background: linear-gradient(180deg, black);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+.banner h1,p{
+    color: #fff;
+    max-width: 600px;
+}
+.banner p{
+    margin-bottom: 30px;
+}
+.select-box{
+    background-color: rgba(155, 151, 151, 0.432);
+    padding: 12px;
+    border-radius: 5px;
+}
+.select-box input{
+    background-color: #fff;
+    border-radius: 10px;
+    border: 0;
+    margin-left: 5px;
+}
+.select-box input{
+    padding: 10px 0 10px 10px;
+}
+.when-button{
+    position: relative;
+    display: inline;
+}
+.when-button i{
+    position: absolute;
+    right: 20px;
+    top: 2px;
+    color: gray;
+}
+.select-type{
+    position: relative;
+    display: inline;
+}
+.select-type i{
+    position: absolute;
+    right: 20px;
+    top: 2px;
+    color: gray;
+}
+.btn-primary{
+    color: #fff;
+    border-radius: 10px;
+    border: 0;
+    padding: 10px 20px;
+    margin-left: 5px;
+}
+
+.popular-tour-section{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: start; */
+}
+.popular-tour-title{
+    max-width: 450px;
+}
+.popular-tour-title h1{
+    font-size: 35px;
+}
+.popular-tour-title p,li{
+    color: gray;
+}
+.popular-tour-title .btn-primary{
+    margin-top: 30px;
+    padding: 15px 30px;
+    font-size: large;
+
+}
+.popular-tour-section img{
+    width: 50%;
+    height: 400px;
+}
+
+.choose-destination-section{
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.choose-destination-section h1{
+    font-size: 35px;
+}
+.choose-destination-section p{
+    color: gray;
+}
+.choose-destination-section .choose-images{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.choose-images img{
+    /* width: 50%; */
+}
+
+.choose-section-title{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.choose-section-title h1{
+    font-size: 35px;
+}
+.choose-section-title p{
+    color: gray;
+}
+.services{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+p{
+    color: gray;
+}
+.handpicked-hotel{
+    background-color: lightcoral;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.world-class-service{
+    background-color: lightgreen;
+    padding: 20px;
+    border-radius: 10px;
+}
+.best-price-guarantee{
+    background-color: lightpink;
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.handpicked-hotel i{
+    /* height: 50px;
+    width: 50px; */
+}
+
+.newsletter-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.newsletter-title{
+    max-width: 500px;
+    border: 1px solid rgb(236, 49, 49);
+    height: 350px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.newsletter-title input{
+    padding: 7px 250px 7px 5px;
+    border: 0;
+    background-color: lightyellow;
+}
+.newsletter-title .text{
+    margin-bottom: 15px;
+}
+.newsletter-title button{
+    margin-top: 30px;
+    padding: 15px 200px;
+
+}
+.discount{
+    position: relative;
+}
+.discount img{
+    width: 90%;
+    height: 390px;
+    /* margin-top: 30px; */
+    margin-left: 30px;
+}
+.discount button{
+    padding: 25px 70px;
+    position: absolute;
+    bottom: 100px;
+    right: 50px;
+    transform: rotate(-30deg);
+}
+
+footer{
+    background-color:burlywood ;
+    /* max-width: 100%; */
+    text-align: center;
+    height: 400px;
+    margin-top: 30px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 90px; */
+}
+footer p{
+    max-width: ;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+footer i{
+    margin-left: 15px;
+    font-size: 30px;
+}
+footer hr{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
