@@ -109,6 +109,7 @@
 }
 
 @media screen and (max-width:600px){
+
     .nav-title h1{
         font-size: 16px;
     }
@@ -208,6 +209,10 @@
 }
 
 /* popular tour end */
+
+
+/* choose destination section start */
+
 
 .choose-destination-section{
     text-align: center;
@@ -344,6 +349,24 @@
     font-size: 25px;
 }
 
+@media screen and (max-width:600px) {
+    .choose-destination-section h1{
+        font-size: 25px;
+    }
+    .images-items-1{
+        flex-direction: column;
+    }
+    .images-items-2{
+        flex-direction: column;
+    }
+    .images-items-3{
+        flex-direction: column;
+    }
+    
+}
+
+/* choose destination section end */
+
 
 .choose-section-title{
     max-width: 500px;
@@ -469,4 +492,9 @@ footer hr{
 footer h5{
     padding-bottom: 90px;
 
+}
+@media screen and (max-width:600px){
+    .container{
+       width: 100%;
+    }
 }
