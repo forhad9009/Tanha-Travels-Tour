@@ -27,6 +27,9 @@
     display: flex;
     align-items: center;
 }
+.nav-title h1{
+    font-size: 20px;
+}
 .nav-items ul{
     display: flex;
 }
@@ -56,12 +59,12 @@
     align-items: center;
 }
 .banner h1{
-    font-weight: 700;
+    font-weight: 600;
     font-size: 50px;
 }
 .banner h1,p{
     color: #fff;
-    max-width: 600px;
+    /* max-width: 600px; */
 }
 .banner p{
     margin-bottom: 30px;
@@ -78,7 +81,7 @@
     margin-left: 5px;
 }
 .select-box input{
-    padding: 10px 0 10px 10px;
+    padding: 20px;
 }
 .when-button{
     position: relative;
@@ -104,7 +107,7 @@
     color: #fff;
     border-radius: 10px;
     border: 0;
-    padding: 10px 20px;
+    padding: 20px 40px;
     margin-left: 5px;
 }
 
@@ -500,7 +503,7 @@ p{
     color: rgba(228, 218, 218, 0.267);
 }
 .newsletter-title input{
-    padding: 7px 250px 7px 5px;
+    padding: 10px 250px 10px 5px;
     border: 0;
     background-color: lightyellow;
     margin-top: 20px;
@@ -510,7 +513,7 @@ p{
 }
 .newsletter-title button{
     margin-top: 30px;
-    padding: 15px 200px;
+    padding: 15px 180px;
 
 }
 .discount{
