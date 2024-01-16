@@ -429,6 +429,29 @@ p{
 
 /* choose section end */
 
+/* simple place section start */
+
+.simple-place-section{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    margin-top: 100px;
+}
+.simple-title button{
+    padding: 15px 40px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:600px) {
+    .simple-place-section{
+       flex-direction: column;
+    }
+    .simple-title{
+        margin-bottom: 25px;
+    }
+}
+/* simple place section end */
+
 /* special-offer-section-start */
 
 .special-offer-section{
