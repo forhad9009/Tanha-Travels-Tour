@@ -446,6 +446,9 @@ p{
     .simple-place-section{
        flex-direction: column;
     }
+    .simple-place-section iframe{
+        width: 100%;
+    }
     .simple-title{
         margin-bottom: 25px;
     }
