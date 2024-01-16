@@ -419,6 +419,9 @@ p{
     .services{
         flex-direction: column;
     }
+    .handpicked-hotel{
+        margin-bottom: 25px;
+    }
 }
 
 /* choose section end */
@@ -600,6 +603,9 @@ footer h5{
 @media screen and (max-width:600px) {
     .footer h1{
         font-size: 15px;
+    }
+    .body-container{
+        width: 90%;
     }
 }
 
